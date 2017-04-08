@@ -1,0 +1,135 @@
+html, body{
+    /*background-color: #ccc;*/
+    margin: 0;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.navigation {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    letter-spacing: 1;
+    background-color: #fff;
+    height: 50px;
+    z-index: 9999;
+    box-shadow: 0px -30px 30px 65px rgba(255,255,255,1);
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+}
+.navigation a {
+    font-family: 'PT Sans';
+    font-weight: 700;
+    color: #4c4c4c;
+    text-decoration: none;
+    height: 40%;
+    margin: 20px 20px 0 0;
+}
+
+.navigation a:hover {
+    border-bottom:4px #17BEBB solid;
+}
+
+section.content{
+    padding: 60px 0 80px 0;
+}
+
+.profile-photo{ 
+    background-image: url(img/headshot.jpg);
+    position: absolute;
+    z-index: 9999;
+    width: 260px;
+    height: 260px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 200px;
+    border: 15px solid #FFFFFF;
+    box-shadow: 0 0 16px 0 rgba(0,0,0,0.60);
+    margin-top: -30px;
+    margin-left: 200px;
+    animation: slidein .5s ease-in-out .5s backwards;
+}
+
+@keyframes slidein{
+    from {margin-top: -500px; margin-left: 0px;}
+    to{margin-top: -30px; margin-left: 200px;}
+}
+
+
+
+
+
+section {
+  /*max-width: 740px;*/
+  margin: 0 auto;
+  display: flex;
+}
+
+.column {
+  margin: 10px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+  padding: 10px 0;
+}
+
+section:nth-of-type(5) .column:first-of-type {
+  flex-grow: 2;
+  flex-shrink: 2;
+  flex-basis: 22px;
+}
+
+section:nth-of-type(6) .column:nth-of-type(2) {
+  flex-grow: 4;
+  flex-shrink: 4;
+  flex-basis: 66px;
+}
+
+div#one{
+    flex-grow: 1.75;
+}
+div#two{
+    flex-grow: 2;
+}
+
+
+
+h1{
+    font-size: 38px;
+    font-weight: 700;
+    letter-spacing: .7;
+    margin: 8px 0 -10 0;
+    font-family: 'PT Serif', serif;
+}
+h2{
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: .5;
+    line-height: 1.5;
+    margin: 0;
+    font-family: 'PT Serif', serif;
+}
+a{cursor: pointer;}
+.teal{color: #17BEBB;}
+.red{color: #E54B4B;}
+.yellow{color: #F3C969;}
+.italic{font-style: italic;}
+.white{color: #FFFFFF;}
+.bold{font-weight: 700;}
+.grey{color: rgba(29,29,29,0.5); font-weight: 700;}
+.text {
+    font-size: 19px;
+    letter-spacing: 0.25;
+    line-height: 1.75;
+    color: #4c4c4c;
+    animation: fade 1s ease-in-out;
+}
+@keyframes fade{
+    from {opacity: 0;}
+    to {opacity: 1;}
+} 
+
+ 

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>resume</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Scout" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M22,43.5 C10.1258779,43.5 0.5,33.8741221 0.5,22 C0.5,10.1258779 10.1258779,0.5 22,0.5 C33.8741221,0.5 43.5,10.1258779 43.5,22 C43.5,33.8741221 33.8741221,43.5 22,43.5 Z M22,40.5 C32.2172679,40.5 40.5,32.2172679 40.5,22 C40.5,11.7827321 32.2172679,3.5 22,3.5 C11.7827321,3.5 3.5,11.7827321 3.5,22 C3.5,32.2172679 11.7827321,40.5 22,40.5 Z M16,12 L24,12 L30,18 L30,30 C30,31.1045695 29.1045695,32 28,32 L16,32 C14.8954305,32 14,31.1045695 14,30 L14,14 C14,12.89 14.89,12 16,12 Z M23,19 L28.5,19 L23,13.5 L23,19 Z" id="resume" fill="#FFFFFF" fill-rule="nonzero"></path>
+    </g>
+</svg>
